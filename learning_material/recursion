@@ -1,1 +1,13 @@
+#Rescursion
+1. What is Recursion?
+Recursion is a function calling itself until base condion / terminating condition is met. If no base condition is met we might get
+stackoverflow error because computer doesn't have unlimited memory
+2. When to use Recursion?
+3.Visualization : Recursion Tree, Recursion Call stack
+3. Recursion vs Iteration
+4. Ways to write Base condition
+5. Recursice leap of faitg
+Recuurence relation
+Solving Recursion Questions o to n and n to 0
+
 
