@@ -11,4 +11,125 @@ What are Data structures
 Why do you need to learn them to ace coding interviews
 What are Data structures .
 According to wikipdia Data structres are collection of data values, relationships amongst them and functions/ algorithms that can be applied on that data.
-For example array is a pre built datastructure and in 
+For example array is a pre built datastructure and it also available in java script. We will also build data structures from scratch
+input --some algorithms --output 
+some Data strcutures are more effiecient than others to do some tasks in terms of time and space
+
+#cheet sheet of big O comlexities https://www.bigocheatsheet.com/
+Complexity Analysis, Big O 
+Comlexity Analysis, Big O
+Big O notation is a powerful tool used in computer science to describe the time complexity or space complexity of algorithms.
+It provides a standardized way to compare the efficiency of different algorithms in terms of their worst-case performance
+Comlexity Analysis, Big O
+1. What is the need for complexity Analysis?
+for example i/p ==n and op/=n-1+n-2+n-3+---1
+we write differnt algorithms for this to solve like through iteration or n-1+n/2 .
+the qustions here are 
+Which approach is better?
+we will use the concept of time complexity and space complxity to identify which apporqach is faster and consume less memory
+Why care about identifying which is better?
+
+It is important to identify the better solution becuase in real time applications there will be huge amount of
+data and there will be significant performance difference between solutions ( millions or in billions)
+what does better mean
+    better means faster and less memory ( these are the two criteria that are usd to evaluate the algorithms ) 
+
+2. What is Time Complexity?
+Time complexity used to idenify which algorithm is faster . Here it is not going to be iterms of time or seconds\
+. It is because same algorithm on same machine might take different times beacuase multiple instances might be ruuning and different machine ( hardware ) the time varre
+varries for the same algorithm
+we measure the time complexity of Algorithm by measuring the number od simple operations computer has to do 
+for example  n-1*n/2 has three operations to do substraction, multiplication and division
+for iteraion n-1+n-2+n-3+---1 wh have multiple oprations like n-1 times we have to substarct and n-2 times additions
+which means 2n-3 operations which is o(n) but for the n-1*n/2 it is o(1)
+which data structure can be used to solve with best time and space complexity
+time complxity is about As input grows in what proportion does the number of opertations grow - this is done using asymtotic analysis)
+
+time complexity is about how the runtime grows as the input grows ( runtime is measured by number of operations not interms of seconfds)
+
+3. Asymptotic Analysis
+to identify time complixty we do asymptotic analysis
+Asymptotic analysis is expressed using big o notation. as the input grows in what proportion number of operatiosn grow
+we just take general trend but not the precision
+eg f(n) =n+3 
+as n large 3 is negligibel so time complexity o(n)
+n**2 +n is o(n**2)
+asymptotic analysis according to wiki is we are interested in properties of function f(n) as n gorws
+we are using big o notation to express the asymptotic analysis when n tends to infinity
+O(n) # operations is bounded by a multiple of N we are interseted in trend and not details
+
+4. What is Big O 
+According to wiki big O notation is used to classify algorithms to how their run time or space requirements groe as their 
+input size grows . 
+5. Common Complexities
+O(1)- constant complexity , 
+o(logn) - binary search , 
+o(n), traverse elements of array and add the 
+o(nlogn), merge sort 
+o(n^2), given an array for all possible pairs 
+o(2^n),  fibonacci
+o(n!)
+6. SpaceComplexity
+extra space consumed by algorithm as input size incraeses. How much auxilary memory needed to run the algorithm
+space  required by pnly algorithm , ignore size of input 
+run the algorithm. ( extra space required only by the algorithm) . Some solutions we can can get better time comlexity by using more space 
+. so its a tradeoff between tim eand space comlexity 
+7.Techniques of simplyfying Big O Expression
+1. Drop the constant 
+2. drop insignificant terms as n increases ) 
+3. If there are different input parameters then you cannot drop o(n***3+m). cannpt drop m beacuse it can be bigger 
+8. Logarithms
+log n means log to the base 2
+ log 8 is 3, log 16 is 4 . 
+Algorithm that cots the input in to hal;f at every step that is have log n comlexity
+8 inputs then we divide 4 then 2 and then 1 in binary search for example
+similarly , if you double input only one 1 extra operation 
+16, 8 , 4, 2,1 
+ similarly in recursiion based questions we see space comlexity is of o(logn) beacuse of call stack
+
+Data structures : Arrays 
+Big O common Array operations
+Arrays are ordered lists. memeory slots required back to back to store eleemets. 
+1. Access 
+   S,T == O(1) 
+2. Set
+    S,T == O(1) 
+3. Traverse/Search
+    S,T == O(1) ,O(n)
+4. Copy
+    S,T == O(n) ( new slots so speece needed)
+5. Insert 
+    here we have concept of static arrays (c++, java) and dynamic array , in js and python arrays are dynamic 
+under the hood
+    Static arrays - fixed size next memory slot may not be available
+    Dynamic arrays - OS allocates almost 2 times as much memory needed 
+     at beginning S =O(1) 
+      at end      SO(1) 
+in betwen       SO(1) 
+
+6. Remove - space  same as above O(1) since we are not craeting any addidtional auxilary space or creating any new array
+	       S	T
+Aceess	1	1
+set	1	1
+traverse/Search	1	n
+copy	n	n
+insert		
+beginning	1	n
+end	1	1
+btwn	1	n
+Remove		
+beginning	1	n
+end	1	1
+btwn	1	n
+
+
+
+
+
+
+
+
+
+
+
+
