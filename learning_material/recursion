@@ -15,6 +15,7 @@ recursion call stack follows lifo last in first out. recursion takes auxilary sp
 
 
 3. Recursion vs Iteration
+things done recursivly can aalso be done iteratively
 4. Ways to write Base condition
 5. Recursice leap of faith
 how to use recursion
