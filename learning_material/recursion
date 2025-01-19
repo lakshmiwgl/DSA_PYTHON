@@ -1,12 +1,28 @@
 #Rescursion
 1. What is Recursion?
 Recursion is a function calling itself until base condion / terminating condition is met. If no base condition is met we might get
-stackoverflow error because computer doesn't have unlimited memory
+stackoverflow error because computer doesn't have unlimited memory.  Recusrsion is parent for may other techniques like 
+back tracking, dynamic programming, dividing and conquer algorithms, greedy algorithms etc.
+base condition is very importnant for recursion
+
 2. When to use Recursion?
+you need a solve a problem, divide it in to smaller problems, solve ese , use this soltuion
+to the original solution
+similar to original problem. Always try to write a base case and a recursive case
 3.Visualization : Recursion Tree, Recursion Call stack
+recursion tree and recursion call stack very important to calculate the the space complexity. and also time complexity
+
+
 3. Recursion vs Iteration
 4. Ways to write Base condition
-5. Recursice leap of faitg
+5. Recursice leap of faith
+how to use recursion
+  understand the problem
+  identify the subproblem
+  trust/ faith
+   trust the recursive call , don't try to simlulate mentally
+  link 1 and 2
+  base condition can be last valid input or first invalid input
 Recuurence relation
 Solving Recursion Questions o to n and n to 0
 
