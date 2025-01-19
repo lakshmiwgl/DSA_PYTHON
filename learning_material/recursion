@@ -11,7 +11,8 @@ to the original solution
 similar to original problem. Always try to write a base case and a recursive case
 3.Visualization : Recursion Tree, Recursion Call stack
 recursion tree and recursion call stack very important to calculate the the space complexity. and also time complexity
-recursion call stack follows lifo last in first out
+recursion call stack follows lifo last in first out. recursion takes auxilary space of order n
+
 
 3. Recursion vs Iteration
 4. Ways to write Base condition
